@@ -1,0 +1,38 @@
+h1 {
+    color: #0068fa;
+    font-family: sans-serif;
+    font-size: 72px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: .125em;
+    text-align: center;
+  }
+  
+  body {
+    color: #0327f9;
+    font-family: sans-serif;
+  }
+
+  p {
+    line-height: 1.25;
+    margin-bottom: 1.25em;
+  }
+  
+  figure {
+    border: 1px solid black;
+    padding: 20px;
+    padding-bottom: 20px;
+  }
+  
+  fig img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  p img {
+    float: right; 
+    max-width: 60%;
+    margin-left: 20px;
+    margin-bottom: 32px;     
+  }
