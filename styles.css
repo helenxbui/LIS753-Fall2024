@@ -38,15 +38,29 @@ h1 {
     margin-bottom: 32px;     
   }
 
-  a {
-    font-weight: bold;
-    color: green;
+  nav ul {
+    background-color: lightsalmon;
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    border: 1px solid orangered;
   }
 
-  ul li a {
+  nav ul li {
+    border-bottom: 1px solid orangered;
+    padding: 5px;
+  }
+
+  nav ul li:last-child {
+    border-bottom: none;
+  }
+
+  nav ul li a {
+    font-weight: bold;
+    color: teal;
     text-decoration: none;
   }
 
-  ul li a:hover {
+  nav ul li a:hover {
     text-decoration: underline;
   }
