@@ -45,8 +45,6 @@ h1#article-title {
   }
   
   figure.section-image{
-    float: right;
-    margin-left: 20px;
     margin-bottom: 32px;
     max-width: 400px;
   }
