@@ -9,13 +9,14 @@ h1#site-title {
 }
 
 h1#article-title {
-  color: black;
+    color: black;
     font-family: sans-serif;
     font-size: 48px;
     letter-spacing: -1px;
 }
   
   body {
+    margin: auto;
     color: teal;
     font-family: sans-serif;
   }
@@ -38,6 +39,9 @@ h1#article-title {
   }
 
   figure.main-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background: teal;
     border-color: black;
     color: white;
@@ -81,7 +85,7 @@ h1#article-title {
   }
             
   nav li {
-    float: left;
+    justify-content: center;
   }
             
   nav li a {
