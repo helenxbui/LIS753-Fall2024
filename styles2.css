@@ -9,7 +9,7 @@ h1#site-title {
 }
 
 h1#article-title {
-  color: black
+  color: black;
     font-family: sans-serif;
     font-size: 48px;
     letter-spacing: -1px;
@@ -36,7 +36,21 @@ h1#article-title {
     height: auto;
     margin-bottom: 20px;
   }
+
+  figure.main-image{
+    background: gray;
+    border-color: black;
+    color: white;
+
+  }
   
+  figure.section-image{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 32px;
+    max-width: 320px;
+  }
+
   p img {
     float: right; 
     max-width: 60%;
