@@ -38,7 +38,7 @@ h1#article-title {
   }
 
   figure.main-image{
-    background: gray;
+    background: teal;
     border-color: black;
     color: white;
 
@@ -48,7 +48,21 @@ h1#article-title {
     float: right;
     margin-left: 20px;
     margin-bottom: 32px;
-    max-width: 320px;
+    max-width: 400px;
+  }
+
+  figure.section-image.odd {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 32px;
+    max-width: 400px;
+  }
+
+  figure.section-image.even {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 32px;
+    max-width: 400px;
   }
 
   p img {
