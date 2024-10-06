@@ -1,12 +1,19 @@
-h1 {
-    color: teal;
+h1#site-title {
+  color: teal;
     font-family: sans-serif;
     font-size: 72px;
     letter-spacing: -1px;
     margin-top: 0;
     margin-bottom: .125em;
     text-align: center;
-  }
+}
+
+h1#article-title {
+  color: black
+    font-family: sans-serif;
+    font-size: 48px;
+    letter-spacing: -1px;
+}
   
   body {
     color: teal;
