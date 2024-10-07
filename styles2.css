@@ -16,14 +16,13 @@ h1#article-title {
 }
   
   body {
-    margin: auto;
     color: teal;
     font-family: sans-serif;
   }
 
   p {
     line-height: 1.50;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 40px;
     margin-left: 40px;
@@ -42,12 +41,9 @@ h1#article-title {
   }
 
   figure.main-image{
-    display: flex;
-    margin: auto;
     background: teal;
     border-color: black;
     color: white;
-
   }
   
   figure.section-image{
