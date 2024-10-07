@@ -6,6 +6,7 @@ h1#site-title {
     margin-top: 0;
     margin-bottom: .125em;
     text-align: center;
+    font-weight: 800;
 }
 
 h1#article-title {
@@ -13,11 +14,22 @@ h1#article-title {
     font-family: sans-serif;
     font-size: 48px;
     letter-spacing: -1px;
+    font-weight: 900;
 }
   
   body {
     color: teal;
-    font-family: sans-serif;
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+    
+      
+    .noto-sans-<uniquifier> {
+      font-family: "Noto Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      "wdth" 100;
+    }
   }
 
   p {
