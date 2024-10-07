@@ -116,6 +116,32 @@ nav .active {
     background-color: black;
 }
 
+header nav ul {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #333;
+}
+
+header nav ul li a:hover {
+    background-color: black
+}
+
+footer nav ul li a {
+    color: #ffffff;
+  }
+  
+  footer nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer#page-footer {
+    padding: 32px 0;
+    margin-top: 64px;
+    text-align: center;
+    background-color: teal;
+    color: #ffffff;
+  }
+
 .skip {
     position: absolute;
     left: -10000px;
