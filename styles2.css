@@ -22,8 +22,11 @@ h1#article-title {
   }
 
   p {
-    line-height: 1.25;
-    margin-bottom: 1.25em;
+    line-height: 1.50;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
   }
   
   figure {
@@ -39,9 +42,8 @@ h1#article-title {
   }
 
   figure.main-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    margin: auto;
     background: teal;
     border-color: black;
     color: white;
@@ -85,7 +87,7 @@ h1#article-title {
   }
             
   nav li {
-    justify-content: center;
+    float: left;
   }
             
   nav li a {
