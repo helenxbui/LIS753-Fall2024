@@ -1,23 +1,26 @@
 h1#site-title {
   color: teal;
-    font-family: sans-serif;
-    font-size: 72px;
-    letter-spacing: -1px;
-    margin-top: 0;
-    margin-bottom: .125em;
-    text-align: center;
-    font-weight: 800;
+  font-size: 72px;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  text-align: center;
+  font-weight: 800;
 }
 
 h1#article-title {
-    color: black;
-    font-family: sans-serif;
-    font-size: 48px;
-    letter-spacing: -1px;
-    font-weight: 900;
+  color: black;
+  font-size: 48px;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+
+h2{
+  color: gray
+  font-weight: 500;
 }
   
-  body {
+body {
     color: teal;
     // <uniquifier>: Use a unique and descriptive class name
     // <weight>: Use a value from 100 to 900
@@ -26,106 +29,106 @@ h1#article-title {
     .noto-sans-<uniquifier> {
       font-family: "Noto Sans", sans-serif;
       font-optical-sizing: auto;
-      font-weight: 300;
+      font-weight: 400;
       font-style: normal;
       "wdth" 100;
     }
-  }
+}
 
-  p {
+p {
     line-height: 1.50;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 40px;
     margin-left: 40px;
-  }
+}
   
-  figure {
+figure {
     border: 1px solid black;
     padding: 20px;
     padding-bottom: 20px;
-  }
+}
   
-  fig img {
+fig img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-  }
+}
 
-  figure.main-image{
+figure.main-image{
     background: teal;
     border-color: black;
     color: white;
-  }
+}
   
-  figure.section-image{
+figure.section-image{
     margin-bottom: 32px;
     max-width: 400px;
-  }
+}
 
-  figure.section-image.odd {
+figure.section-image.odd {
     float: right;
     margin-left: 20px;
     margin-bottom: 32px;
     max-width: 400px;
-  }
+}
 
-  figure.section-image.even {
+figure.section-image.even {
     float: left;
     margin-right: 20px;
     margin-bottom: 32px;
     max-width: 400px;
-  }
+}
 
-  p img {
+p img {
     float: right; 
     max-width: 60%;
     margin-left: 20px;
     margin-right: 40px;
     margin-bottom: 32px;     
-  }
+}
 
-  nav ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid black;
     background-color: #333;
-  }
+}
             
-  nav li {
+nav li {
     float: left;
-  }
+}
             
-  nav li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
             
-  nav li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color: teal;
-  }
+}
             
-  nav .active {
+nav .active {
     background-color: black;
-  }
+}
 
-  .skip {
+.skip {
     position: absolute;
     left: -10000px;
     top: auto;
     width: 1px;
     height: 1px;
     overflow: hidden;
-  }
+}
   
-  .skip:focus {
+.skip:focus {
     position: static;
     width: auto;
     height: auto;
-  }
+}
  
