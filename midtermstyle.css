@@ -1,7 +1,9 @@
 body {
+    color: darkslategray;
     font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
-    margin: 0;
+    font-style: normal;
   }
   
   .container {
@@ -13,7 +15,7 @@ body {
   .small-container {
     margin: 0 auto;
     width: 92%;
-    max-width: 768px;
+    max-width: 1000px;
   }
   
   h1#site-title {
@@ -22,51 +24,64 @@ body {
     margin-top: 0;
     margin-bottom: .125em;
     text-align: center;
-    font-weight: 800;
+    font-weight: 900;
   }
   
   h1#article-title {
+    color: teal;
     font-size: 48px;
-    font-weight: 900;
-    margin-bottom: 22px;
-    margin-top: 48px;
+    letter-spacing: -3px; 
+    font-weight: 500; 
   }
   
   h2 {
-    font-weight: 900;
-    margin-bottom: 0;
-    margin-top: 48px;
+    color: teal;
+    font-weight: 500; 
   }
   
   p {
-    line-height: 1.25;
-    margin-bottom: 1.25em;
+    line-height: 1.50;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
   }
   
   figure {
-    margin: 0;
     border: 1px solid black;
-    padding: 12px;
+    padding: 24px;
     padding-bottom: 24px;
   }
   
   figure img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
   
   figure.main-image {
-    background: Green;
+    background: Teal;
     border-color: Teal;
     color: #ffffff;
-    margin-bottom: 32px;
   }
   
   figure.section-image {
-    max-width: 320px;
-    float: right;
-    margin: -20px -62px 32px 20px;
+     margin-bottom: 32px;
+     max-width: 400px;
+  }
+  
+  figure.section-image.odd {
+      float: right;
+      margin-left: 20px;
+      margin-bottom: 32px;
+      max-width: 400px;
+  }
+  
+  figure.section-image.even {
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 32px;
+      max-width: 400px;
   }
   
   p img {
@@ -105,7 +120,6 @@ body {
     border-bottom: 1px solid Teal;
   }
   
-
   footer nav ul li a {
     color: #ffffff;
   }
@@ -121,18 +135,18 @@ body {
     background-color: Teal;
     color: #ffffff;
   }
-
-  .skip {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
   
-.skip:focus {
-    position: static;
-    width: auto;
-    height: auto;
-}
+  .skip {
+      position: absolute;
+      left: -10000px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+  }
+    
+  .skip:focus {
+      position: static;
+      width: auto;
+      height: auto;
+  }
