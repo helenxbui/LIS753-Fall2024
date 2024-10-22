@@ -8,14 +8,14 @@ body {
   
   .container {
     width: 96%;
-    max-width: 1080px;
+    max-width: 1020px;
     margin: 0 auto;
   }
   
   .small-container {
     margin: 0 auto;
     width: 92%;
-    max-width: 1020px;
+    max-width: 1000px;
   }
   
   h1#site-title {
