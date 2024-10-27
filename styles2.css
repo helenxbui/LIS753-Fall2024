@@ -41,7 +41,12 @@ p {
     margin-right: 40px;
     margin-left: 40px;
 }
-  
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 figure {
     border: 1px solid black;
     padding: 20px;
@@ -49,8 +54,6 @@ figure {
 }
   
 fig img {
-    width: 100%;
-    height: auto;
     margin-bottom: 20px;
 }
 
