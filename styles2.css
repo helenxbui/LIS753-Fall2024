@@ -94,6 +94,8 @@ p img {
 
 @media all and (min-width:376px) {
     header nav ul {
+        display: flex;
+        justify-content: center;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -105,7 +107,6 @@ p img {
 }
             
 header nav li a {
-    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -127,7 +128,8 @@ header nav ul li a:hover {
 @media all and (min-width:376px) {
     footer nav ul {
         background-color: teal;
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         text-align: center;
         list-style-type: none;
     }
