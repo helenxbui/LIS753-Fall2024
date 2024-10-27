@@ -62,10 +62,12 @@ figure.main-image{
     border-color: black;
     color: white;
 }
-  
-figure.section-image{
-    margin-bottom: 32px;
-    max-width: 400px;
+
+@media all and (min-width:768px) {
+    figure.section-image{
+        margin-bottom: 32px;
+        max-width: 400px;
+    }
 }
 
 figure.section-image.odd {
@@ -90,43 +92,51 @@ p img {
     margin-bottom: 32px;     
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid black;
-    background-color: #333;
+@media all and (min-width:376px) {
+    header nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid teal;
+        background-color: white;
+    }
 }
             
-nav li {
-    float: left;
+header nav li {
+    text-align: center;
 }
             
-nav li a {
+header nav li a {
     display: block;
-    color: white;
+    color: teal;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
             
-nav li a:hover:not(.active) {
-    background-color: teal;
-}
-            
-nav .active {
+header nav li a:hover:not(.active) {
     background-color: black;
 }
+            
+header nav .active {
+    background-color: darkslategray;
+}
 
-header nav ul {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    background-color: #333;
+@media all and (min-width:376px) {
+    header nav ul {
+        border-top: 1px solid teal;
+        border-bottom: 1px solid teal;
+        background-color: white;
+    }
 }
 
 header nav ul li a:hover {
-    background-color: teal
+    background-color: black
+}
+
+footer nav ul {
+    background-color: teal;
 }
 
 footer nav ul li a {
@@ -136,13 +146,15 @@ footer nav ul li a {
 footer nav ul li a:hover {
     background-color: black
 }
-  
-footer#page-footer {
-    padding: 32px 0;
-    margin-top: 35px;
-    text-align: center;
-    background-color: teal;
-    color: #ffffff;
+
+@media all and (min-width:376px) {
+    footer#page-footer {
+        padding: 32px 0;
+        margin-top: 35px;
+        text-align: center;
+        background-color: teal;
+        color: #ffffff;
+    }
 }
 
 .skip {
