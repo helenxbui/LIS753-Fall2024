@@ -98,7 +98,7 @@ p img {
         justify-content: center;
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 20px;
         overflow: hidden;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
@@ -130,13 +130,15 @@ header nav ul li a:hover {
         background-color: teal;
         display: flex;
         justify-content: center;
-        text-align: center;
         list-style-type: none;
     }
 }
 
 footer nav ul li a {
-    color: #ffffff;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
   
 footer nav ul li a:hover {
