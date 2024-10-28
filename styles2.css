@@ -92,7 +92,7 @@ p img {
     margin-bottom: 32px;     
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:480px) {
     header nav ul {
         display: flex;
         justify-content: center;
@@ -106,7 +106,7 @@ p img {
     }
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:480px) {
     header nav li a {
         color: white;
         text-align: center;
@@ -127,7 +127,7 @@ header nav ul li a:hover {
     background-color: black
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:480px) {
     footer nav ul {
         background-color: teal;
         display: flex;
@@ -136,7 +136,7 @@ header nav ul li a:hover {
     }
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:480px) {
     footer nav ul li a {
         color: white;
         text-align: center;
@@ -149,7 +149,7 @@ footer nav ul li a:hover {
     background-color: black
 }
 
-@media all and (min-width:376px) {
+@media all and (min-width:480px) {
     footer#page-footer {
         padding: 32px 0;
         margin-top: 35px;
