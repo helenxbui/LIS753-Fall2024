@@ -1,0 +1,77 @@
+h1 {
+    color: #003366;
+    font-family: sans-serif;
+    font-size: 72px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: .125em;
+    text-align: center;
+  }
+  
+  body {
+    color: #003366;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  body.dark-mode {
+    background: #010101;
+    color: #ffffff
+  }
+  
+  body.dark-mode button {
+    background-color: #ffffff;
+  }
+  
+  .container {
+    padding: 12px 0;
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  p {
+    line-height: 1.25;
+    margin-bottom: 1.25em;
+  }
+  
+  figure {
+    border: 1px solid black;
+    padding: 20px;
+    padding-bottom: 20px;
+  }
+  
+  fig img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  p img {
+    float: right; 
+    max-width: 60%;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 32px;   
+  }
+  
+  #message {
+    background: #E9FFE4;
+    border: 1px solid #178201;
+    padding: 20px 40px;
+    margin: 12 px 0;
+    border-radius: 4 px;
+    opacity: 1;
+    transition: opacity .2s ease;
+  }
+  
+  #message.dismissed {
+    opacity: 0;
+    height: 0;
+  }
+  
+  #message button {
+    float: right; 
+  }
+  
