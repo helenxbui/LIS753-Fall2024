@@ -24,12 +24,27 @@ h1 {
     background-color: #ffffff;
   }
   
-  .container {
+  .main-container {
     padding: 12px 0;
     width: 96%;
-    max-width: 600px;
+    max-width: 960px;
     margin: 0 auto;
   }
+  
+  .site-menu,
+   .sidebar {
+   width: 20%;
+   }
+  
+  .main-content {
+   width: 60%;
+   }
+  
+   .site-menu,
+   .main-content,
+   .sidebar {
+   float: left;
+   }
   
   p {
     line-height: 1.25;
@@ -75,3 +90,29 @@ h1 {
     float: right; 
   }
   
+  nav ul {
+      background-color: lightblue;
+      list-style: none;
+      padding: 0;
+      width: 200px;
+      border: 1px solid #003366;
+    }
+  
+    nav ul li {
+      border-bottom: 1px solid #003366;
+      padding: 5px;
+    }
+  
+    nav ul li:last-child {
+      border-bottom: none;
+    }
+  
+    nav ul li a {
+      font-weight: bold;
+      color: #003366;
+      text-decoration: none;
+    }
+  
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
