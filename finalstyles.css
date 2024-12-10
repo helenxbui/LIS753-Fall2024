@@ -11,7 +11,7 @@ body {
   
   body.dark-mode {
       background: #333333;
-      color: #ffffff
+      color: #ffffff;
     }
     
     body.dark-mode button {
